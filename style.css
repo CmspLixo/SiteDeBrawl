@@ -1,0 +1,47 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Concert One", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(161, 147, 18);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(216, 186, 19);
+}
+
+section {
+    background: rgb(13, 66, 73);
+    padding-bottom: 60px;
+    padding-top: 15px;
+    margin-left: 10;
+}
+
+div {
+    margin-left: 100px;
+}
+
+p {
+    margin-left: 60px;
+    border-bottom: solid 5px rgb(211, 22, 22);
+}
+
+img {
+    height: 200px;
+}
+
+.imagens {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+.seila {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img:hover {
+    opacity 1.0;
+}
